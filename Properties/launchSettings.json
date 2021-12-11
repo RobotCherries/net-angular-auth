@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "net_angular_auth": {
+    "NetAngularAuth": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>net_angular_auth</RootNamespace>
+    <RootNamespace>NetAngularAuth</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

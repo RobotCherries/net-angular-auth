@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "net_angular_auth",
+  "RootNamespace": "NetAngularAuth",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

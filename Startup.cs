@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace net_angular_auth
+namespace NetAngularAuth
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace net_angular_auth
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "net_angular_auth", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "NetAngularAuth", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace net_angular_auth
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "net_angular_auth v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "NetAngularAuth v1"));
             }
 
             app.UseHttpsRedirection();
