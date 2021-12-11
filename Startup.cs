@@ -33,6 +33,7 @@ namespace NetAngularAuth
             services.AddScoped<IUserRepository, UserRepository>();
 
             // API
+            services.AddRouting(options => options.LowercaseUrls = true);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
