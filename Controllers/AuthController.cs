@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace NetAngularAuth.Controllers
+namespace net_angular_auth.Controllers
 {
-    [ApiController]    public class AuthController: Controller
+    [Route("[controller]")]
+    public class AuthController : Controller
     {
-        [HttpGet]
-        public IActionResult Register()
-        {
+        [HttpGet("")]
+        public IActionResult Register() {
             return Ok("Success");
         }
     }
