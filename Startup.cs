@@ -28,7 +28,11 @@ namespace NetAngularAuth
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Data
             services.AddDbContext<UserContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
+            services.AddScoped<IUserRepository, UserRepository>();
+
+            // API
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
