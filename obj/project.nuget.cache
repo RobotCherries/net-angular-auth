@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/eLDr6J60gUG69tL3eMhgt63IjfJ0hki5UEeIPw9edvcbCl+U+Cd+7YTT3dzOhoHAEHWuixFZktdCxFvf9NUOQ==",
+  "dgSpecHash": "EghhupehEFjT8vF0lZtYZRL1U81xjFbd2xwu6Z/Yu/eqXo0gVufh6Ybd/TRHqsSBP0G4A+u+dzSPbvagxM+6sQ==",
   "success": true,
-  "projectFilePath": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\net-angular-auth.csproj",
+  "projectFilePath": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\NetAngularAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

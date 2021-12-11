@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace net_angular_auth.Controllers
+namespace NetAngularAuth.Controllers
 {
     [Route("[controller]")]
     public class AuthController : Controller

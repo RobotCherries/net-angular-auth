@@ -200,9 +200,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\net-angular-auth.csproj",
-      "projectName": "net-angular-auth",
-      "projectPath": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\net-angular-auth.csproj",
+      "projectUniqueName": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\NetAngularAuth.csproj",
+      "projectName": "NetAngularAuth",
+      "projectPath": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\NetAngularAuth.csproj",
       "packagesPath": "C:\\Users\\Oana\\.nuget\\packages\\",
       "outputPath": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\obj\\",
       "projectStyle": "PackageReference",
@@ -261,7 +261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\PROGRA~1\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
