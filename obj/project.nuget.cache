@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "JZG91THzMeAXI+9MjxZ1ihbs/d23yxGpTLNI1k2KY5c1+LDxQgROVnribVehCh2QKZZLQpjwyvB5K6ZbCjE+kw==",
+  "dgSpecHash": "p4lkryvqghMjiJvRfnUtoElKLg92Y52JnXsM2WeA6KjaHpSp0xwg5hxw5ojcmui2pzfCWPbRCHuBe3PDR+cLoQ==",
   "success": true,
   "projectFilePath": "D:\\_Repos\\scalable-scripts\\net-angular-auth\\NetAngularAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "C:\\Users\\Oana\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.0\\microsoft.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.0\\microsoft.entityframeworkcore.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.0\\microsoft.entityframeworkcore.analyzers.3.1.0.nupkg.sha512",
+    "C:\\Users\\Oana\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.0\\microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
+    "C:\\Users\\Oana\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Oana\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",
