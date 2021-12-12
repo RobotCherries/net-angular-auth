@@ -1,3 +1,4 @@
+using System.Linq;
 using NetAngularAuth.Data;
 using NetAngularAuth.Models;
 
@@ -18,6 +19,11 @@ namespace NetAngularAuth.Data
             user.Id = _userContext.SaveChanges();
 
             return user;
+        }
+
+        public User GetByEmail(string email)
+        {
+            return _userContext.Users.FirstOrDefault(user => user.Email == email);
         }
     }
 }

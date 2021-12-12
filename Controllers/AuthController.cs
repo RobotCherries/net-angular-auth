@@ -18,10 +18,7 @@ namespace NetAngularAuth.Controllers
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterDto dto)
         {
-            if (dto == null)
-            {
-                return BadRequest("Please fill in all of the register fields");
-            }
+            if (dto == null) return BadRequest("Please fill in all of the register fields");
 
             System.Console.Write(dto);
 
@@ -35,6 +32,21 @@ namespace NetAngularAuth.Controllers
             var result = _userRepository.Create(user);
 
             return Created("Success", result);
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginDto dto)
+        {
+            var user = _userRepository.GetByEmail(dto.Email);
+
+            if (user == null) return BadRequest(new { message = "Invalid credentials" });
+
+            if (!BCrypt.Net.BCrypt.Verify(dto.Password, user.Password))
+            {
+                return BadRequest(new { message = "Invalid credentials" });
+            }
+
+            return Ok(user);
         }
     }
 }
