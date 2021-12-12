@@ -29,12 +29,13 @@ namespace NetAngularAuth
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Security
+            services.AddCors();
+            services.AddScoped<JwtService>();
+
             // Data
             services.AddDbContext<UserContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
             services.AddScoped<IUserRepository, UserRepository>();
-
-            // Security
-            services.AddScoped<JwtService>();
 
             // API
             services.AddRouting(options => options.LowercaseUrls = true);
@@ -58,6 +59,15 @@ namespace NetAngularAuth
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(options => options
+                .WithOrigins(new []{
+                    "http://localhost:4200"
+                })
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials()
+            );
 
             app.UseAuthorization();
 
