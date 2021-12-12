@@ -25,5 +25,10 @@ namespace NetAngularAuth.Data
         {
             return _userContext.Users.FirstOrDefault(user => user.Email == email);
         }
+
+        public User GetById(int id)
+        {
+            return _userContext.Users.FirstOrDefault(user => user.Id == id);
+        }
     }
 }
