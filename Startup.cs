@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using NetAngularAuth.Data;
+using NetAngularAuth.Helpers;
 
 namespace NetAngularAuth
 {
@@ -31,6 +32,9 @@ namespace NetAngularAuth
             // Data
             services.AddDbContext<UserContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
             services.AddScoped<IUserRepository, UserRepository>();
+
+            // Security
+            services.AddScoped<JwtService>();
 
             // API
             services.AddRouting(options => options.LowercaseUrls = true);
